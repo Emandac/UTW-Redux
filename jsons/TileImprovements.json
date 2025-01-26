@@ -1,0 +1,161 @@
+[
+	{
+		"name": "Wooden barricades",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Construction",
+		"turnsToBuild": 3,
+		"uniques":["Cannot be built on [Water] tiles","Gives a defensive bonus of [10]%","Can be built outside your borders","Does not need removal of [Forest]","Pillaging this improvement yields approximately [+5 Gold]"],
+		"civilopediaText": [
+			{"text": "[+15]% Strength <vs [Mounted] units> <in [Wooden barricades] tiles> <when defending>" }
+		]
+	},
+	{
+		"name": "Barbed wire",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired":"Industrialization",
+		"turnsToBuild": 2,
+		"uniques": ["Cannot be built on [Water] tiles","Gives a defensive bonus of [10]%","Can be built outside your borders","Does not need removal of [Forest]","Pillaging this improvement yields approximately [+10 Gold]"],
+		"civilopediaText": [
+			{"text": "[+15]% Strength <vs [Mounted] units> <in [Barbed wire] tiles> <when defending>" },
+			{"text": "[+10]% Strength <vs [Gunpowder] units> <in [Barbed wire] tiles> <when defending>" }
+		]
+	},
+	{
+		"name": "Land mine",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired":"Industrialization",
+		"turnsToBuild": 1,
+		"uniques": ["Can be built outside your borders","Gives a defensive bonus of [-50]%"]
+
+	},
+	{
+		"name":"Outpost",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired":"Construction",
+		"turnsToBuild": 3,
+		"uniques":["Gives a defensive bonus of [10]%","Can be built outside your borders","Pillaging this improvement yields approximately [+10 Gold]","[+2] Sight <for [Land] units>"],
+		"civilopediaText": [
+			{"text": "+2 sight for Land units"}
+		]
+
+	},
+	{
+		"name":"Bunker",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired":"Industrialization",
+		"turnsToBuild": 5,
+		"uniques": ["Does not need removal of [Forest]","Cannot be built on [Water] tiles","Gives a defensive bonus of [30]%","[+30]% Strength <vs [Land] units> <in [Bunker] tiles>","[+1] Range <for [Ranged] units>","Can be built outside your borders"],
+		"civilopediaText": [
+			{"text": "[+30]% Strength <vs [Gunpowder] units> <in [Bunker] tiles> <when defending>" },
+			{"text": "+1 sight for Range unit"}
+		]
+	},
+	{
+		"name": "Coastal Bunker",
+		"terrainsCanBeBuiltOn":["Hill"],
+		"techRequired": "Railroads",
+		"turnsToBuild": 5,
+		"uniques": ["Can only be built on [Coastal] tiles","Gives a defensive bonus of [40]%","[+4] Sight <for [Coastal Bunker Arillery] units>"]
+
+	},
+	{
+		"name": "Medical Testes",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Military Science",
+		"turnsToBuild": 5,
+		"uniques": ["Can be built outside your borders","Costs [1] [Gold] per turn"]
+	},
+	{
+		"name": "Anti-Tank Ditch",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Railroads",
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders","Costs [1] [Gold] per turn","[+2] Range <for [Anti-Tank Gun] units>","Gives a defensive bonus of [15]%"]
+	},
+	{
+		"name": "Trenches",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired":"Military Science",
+		"turnsToBuild": 2,
+		"uniques":["Can be built outside your borders","Gives a defensive bonus of [25]%"]
+	},
+	{
+		"name": "Exteded siger",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Railroads",
+		"turnsToBuild": 4,
+		"uniques": ["Gives a defensive bonus of [10]%","Can be built outside your borders"]
+	},
+	{
+		"name": "Land Artillery",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Railroads",
+		"turnsToBuild": 5,
+		"uniques": ["Gives a defensive bonus of [30]%"]
+	},
+	{
+		"name": "Prison",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["[+5 Happiness]","[-5 Food]","[+5 Production]",
+	                "Gives a defensive bonus of [10]%",
+				    "Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+
+	{
+		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 8,
+		"uniques": [
+			"Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>",
+		 	"Will not be replaced by automated units",
+            "Removes removable features when built", 
+			"Pillaging this improvement yields approximately [+20 Gold]",
+			"Gives a defensive bonus of [15]%"]
+	},
+	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 6,
+		"uniques": ["Great Improvement", "Removes removable features when built",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]",
+			"Gives a defensive bonus of [15]%"]
+	},
+	{
+		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 4,
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>", "Removes removable features when built",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]",
+		"Gives a defensive bonus of [15]%"]
+	},
+	{
+		"name": "Customs house",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 4,
+		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Removes removable features when built",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]",
+		"Gives a defensive bonus of [15]%"]
+	},
+	{
+		"name": "Holy site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 6,
+		"uniques": ["Great Improvement", "Removes removable features when built",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]",
+		"Gives a defensive bonus of [15]%"]
+	},
+	{
+		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [100]%",
+			"Adjacent enemy units ending their turn take [30] damage",
+			"Can be built just outside your borders",
+			"Gain control over [all] tiles in a [1]-tile radius",
+			"Removes removable features when built",
+            "Will not be replaced by automated units"
+		]
+	}
+]
+

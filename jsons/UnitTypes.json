@@ -1,0 +1,100 @@
+[
+    {
+        "name": "Sword",
+        "movementType": "Land",
+        "uniques": ["[-33]% Strength <vs [Gunpowder] units>",
+        "[-44]% Strength <vs [Ranged Gunpowder] units>"]
+    },
+    {
+        "name": "Archery",
+        "movementType": "Land",
+        "uniques": ["[-33]% Strength <vs [Gunpowder] units>",
+    "[-44]% Strength <vs [Ranged Gunpowder] units>"]
+    },
+    {
+        "name": "Gunpowder",
+        "movementType": "Land",
+        "uniques": ["[+15]% Strength <vs [Mounted] units> <in [Wooden Barricade] tiles> <when defending>","[+10]% Strength <vs [Gunpowder] units> <in [Barbed wire] tiles> <when defending>","[+15]% Strength <vs [Mounted] units> <in [Barbed wire] tiles> <when defending>","[35]% Strength <when fighting in [Bunker] tiles> <when defending>",
+        "[+25] HP when healing <in [Medical Testes] tiles>","[+25]% Strength <vs [Ranged Gunpowder] units> <in [Trenches] tiles> <when defending>","[+20]% Strength <vs [Siege] units> <in [Trenches] tiles> <when defending>",
+        "[+25]% Strength <vs [Gunpowder] units> <in [Trenches] tiles> <when defending>","Can carry [1] [Grenades] units"]
+    },
+    {
+        "name": "Ranged Gunpowder",
+        "movementType": "Land",
+        "uniques": ["[+1] Range <for [Ranged Gunpowder] units> <in [Bunker] tiles>",
+        "[+1] Sight <for [Ranged Gunpowder] units> <in [Bunker] tiles>",
+    "[+10]% Strength <vs [Gunpowder] units> <in [Ranged Gunpowder] tiles> <when attacking>"]
+    },
+    {
+        "name": "Katyusha Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking"]
+    },
+    {
+        "name": "Coastal Arillery",
+        "movementType": "Land",
+        "uniques": ["[+15]% Strength <vs [Coastal Bunker Arillery] units> <in [Coastal Bunker] tiles> <when defending>","[+3] Range <for [Coastal Bunker Arillery] units> <in [Coastal Bunker] tiles>","[+15]% Strength <vs [Melee Water] units> <in [Coastal Bunker] tiles>","[+30]% Strength <vs [Ranged Water] units> <when attacking>","[+45]% Strength <vs [Melee Water] units> <when attacking>"]
+
+    },
+    {
+        "name": "Anti-Tank Gun",
+        "movementType": "Land",
+        "uniques": ["[+1] Range <for [Anti-Tank Gun] units> <in [Anti-Tank Ditch] tiles>","[+55]% Strength <vs [Light Armored] units> <in [Anti-Tank Ditch] tiles>","[+50]% Strength <vs [Armored] units> <in [Anti-Tank Ditch] tiles>","[+45]% Strength <vs [Heavy Armored] units> <in [Anti-Tank Ditch] tiles>",
+        "[+40]% Strength <vs [Modern Armored] units> <in [Anti-Tank Ditch] tiles>"]
+    },
+    {
+        "name": "Katyusha rocket launchers",
+        "movementType": "Land",
+        "uniques": [""]
+    },
+    {
+        "name": "Light Armored",
+        "movementType": "Land",
+        "uniques": ["[-25]% Strength <vs [Anti-Tank Gun] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when defending>","[+25]% Strength <vs [Gunpowder] units> <when attacking>"]
+    },
+    {
+        "name": "Armored",
+        "movementType": "Land",
+        "uniques": ["[+10]% Strength <vs [Gunpowder] units> <when defending>","Can carry [1] [Armored equipment] units"]
+    },
+    {
+        "name": "Heavy Armored",
+        "movementType": "Land",
+        "uniques": ["[+10]% Strength <vs [Armored] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when defending>","Can carry [1] [Armored equipment] units"]
+    },
+    {
+        "name": "Modern Armored",
+        "movementType": "Land",
+        "uniques": ["[+30]% Strength <vs [Light Armored] units> <when defending>","[+15]% Strength <vs [Armored] units> <when defending>","[+10]% Strength <vs [Heavy Armored] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when defending>","Can carry [1] [Armored equipment] units"]
+    },
+    {
+        "name": "city center cannon",
+        "movementType":"Land",
+        "uniques": ["[+40]% Strength <vs [Gunpowder] units> <when attacking>",
+        "[+50]% Strength <vs [Siege] units> <when attacking>",
+        "[+3] Range <for [city center cannon] units> <in [City center] tiles>",
+        "[+3] Range <for [city center cannon] units> <in [Land Artillery] tiles>"]
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land",
+        "uniques": ["[+1] Range <for [Siege] units> <in [Exteded siger] tiles>"]
+    },
+    {
+        "name": "Grenades",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking",
+        "[+125]% Strength <for [Grenades] units> <in [City center] tiles> <when attacking>",
+        "[-200]% Strength <vs [Water] units> <when attacking>"]
+    },
+    {
+        "name": "Gunpowder equipment",
+        "movementType": "Air",
+        "uniques": []
+    },
+    {
+        "name": "Armored equipment",
+        "movementType": "Air",
+        "uniques": []
+    }
+]

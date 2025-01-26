@@ -1,0 +1,179 @@
+[
+
+	{
+		"name": "Mountaieer I",
+		"uniques": ["[+20]% Strength <when fighting in [Hill] tiles>"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 28,
+        "row": 1
+	},
+	{
+		"name": "Mountaieer II",
+		"prerequisites": ["Mountaieer I"],
+		"uniques": ["[+20]% Strength <when fighting in [Hill] tiles>"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 28,
+        "row": 2
+	},
+	{
+		"name": "Mountaieer III",
+		"prerequisites": ["Mountaieer II"],
+		"uniques": ["[+30]% Strength <when fighting in [Hill] tiles>","[-40]% Strength <when fighting in [Open terrain] tiles>","Double movement in [Hill]"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 28,
+        "row": 3
+	},
+	{
+		"name": "Forest Specialisation I",
+		"uniques": ["[+20]% Strength <when fighting in [Forest] tiles>"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 27,
+        "row": 1
+	},
+	{
+		"name": "Forest Specialisation II",
+		"prerequisites": ["Forest Specialisation I"],
+		"uniques": ["[+20]% Strength <when fighting in [Forest] tiles>"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 27,
+        "row": 2
+	},
+	{
+		"name": "Forest Specialisation III",
+		"prerequisites": ["Forest Specialisation II"],
+		"uniques": ["[+30]% Strength <when fighting in [Forest] tiles>","[-40]% Strength <when fighting in [Open terrain] tiles>","Double movement in [Forest]"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 27,
+        "row": 3
+	},
+	{
+		"name": "Shock I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Light Armored","Heavy Armored","Modern Armored","Armored"],
+        "column": 4,
+        "row": 1
+	},
+	{
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Light Armored","Heavy Armored","Modern Armored"],
+        "column": 4,
+        "row": 2
+	},
+	{
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Light Armored","Heavy Armored","Modern Armored"],
+        "column": 4,
+        "row": 3
+	},
+	{
+		"name": "Drill I",
+		"uniques": ["[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+        "column": 5,
+        "row": 1
+	},
+	{
+		"name": "Drill II",
+		"prerequisites": ["Drill I"],
+		"uniques": ["[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+        "column": 5,
+        "row": 2
+	},
+	{
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": ["[+10]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+        "column": 5,
+        "row": 3
+	},
+	{
+		"name": "Winter fighter I",
+		"uniques": ["[+20]% Strength <when fighting in [Tundra] tiles>","[+10]% Strength <when fighting in [Snow] tiles>"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 35,
+        "row": 1
+	},
+	{
+		"name": "Winter fighter II",
+		"prerequisites": ["Winter fighter I"],
+		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>","[+15]% Strength <when fighting in [Snow] tiles>"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 35,
+        "row": 2
+	},
+	{
+		"name": "one more Katyusha rocket",
+		"uniques": ["Can carry [1] extra [Katyusha Missile] units"],
+		"unitTypes": ["Katyusha rocket launchers"],
+        "column": 29,
+        "row": 1
+	},
+	{
+		"name": "i swear just one more !",
+		"prerequisites": ["one more Katyusha rocket"],
+		"uniques": ["Can carry [1] extra [Katyusha Missile] units","[-40]% Strength <when defending>"],
+		"unitTypes": ["Katyusha rocket launchers"],
+        "column": 29,
+        "row": 2
+	},
+	{
+		"name": "Overdrive",
+		"prerequisites": ["Shock III"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Light Armored","Heavy Armored","Modern Armored"],
+        "column": 30,
+        "row": 2
+	},
+	{
+		"name": "Exteded range",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Heavy Armored"],
+        "column": 31,
+        "row": 4
+	},
+	{
+		"name": "Scouting",
+		"uniques": ["[+1] Sight"],
+		"prerequisites": ["Shock I"],
+		"unitTypes": ["Light Armored"],
+        "column": 31,
+        "row": 2
+	},
+	{
+		"name": "Better equipment",
+		"uniques": ["[+10]% Strength <when defending>"],
+		"unitTypes": ["Light Armored","Heavy Armored","Modern Armored","Armored"],
+		"column": 32,
+		"row": 4
+	},
+	{
+		"name":"in thenching",
+		"uniques":["Can build [Trenches] improvements on tiles"],
+		"column": 33,
+		"row": 1
+
+	},
+	{
+		"name":"making a Anti-Tank Ditch",
+		"uniques":["Can build [Anti-Tank Ditch] improvements on tiles"],
+		"unitTypes":["Anti-Tank Gun"],
+		"column": 34,
+		"row": 1
+
+	},
+	{
+		"name": "Organisation",
+		"prerequisites": ["Shock III"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Light Armored","Heavy Armored","Modern Armored"],
+        "column": 31,
+        "row": 3
+	}
+]
