@@ -65,7 +65,7 @@
 		"rangedStrength": 50,
 		"cost": 300,
 		"requiredTech": "Combined Arms",
-		"uniques": ["[+125]% Strength <vs [Light Armored] units> <when attacking>","[+100]% Strength <vs [Armored] units> <when attacking>","[+60]% Strength <vs [Heavy Armored] units> <when attacking>","[+40]% Strength <vs [Modern Armored] units> <when attacking>","Never appears as a Barbarian unit"],
+		"uniques": ["[+150]% Strength <vs [Light Armored] units> <when attacking>","[+100]% Strength <vs [Armored] units> <when attacking>","[+60]% Strength <vs [Heavy Armored] units> <when attacking>","[+40]% Strength <vs [Modern Armored] units> <when attacking>","Never appears as a Barbarian unit"],
 		"attackSound": "machinegun",
 		"range": 1
 
@@ -75,12 +75,12 @@
 		"unitType": "Gunpowder",
 		"movement": 4,
 		"strength": 45,
-		"cost": 375,
+		"cost": 400,
 		"requiredTech": "Combustion",
 		"obsoleteTech": "Mobile Tactics",
 		"upgradesTo": "Mechanized Infantry",
 		"uniques": ["Never appears as a Barbarian unit","[+10]% Strength <vs [Gunpowder] units>",
-		"[15]% Strength <vs [Ranged Gunpowder] units>",
+		"[15]% Strength <vs [Ranged Gunpowder] units>","No defensive terrain bonus",
 		"Can move after attacking"
 	],
 		"attackSound": "tankshot"
@@ -90,12 +90,13 @@
 		"unitType": "Light Armored",
 		"movement": 3,
 		"strength": 90,
-		"cost": 500,
+		"cost": 650,
 		"requiredTech": "Mobile Tactics",
 		"uniques": ["Never appears as a Barbarian unit","[+10]% Strength <vs [Gunpowder] units>",
 		"[15]% Strength <vs [Ranged Gunpowder] units>",
 		"Can move after attacking",
-		"[+1] Movement <in [Plains] tiles>"
+		"[+1] Movement <in [Plains] tiles>",
+		"No defensive terrain bonus"
 	],
 		"attackSound": "tankshot"
 	},
@@ -123,7 +124,8 @@
 		 "[40]% Strength <vs [Ranged Gunpowder] units>",
 		 "[-55]% Strength <vs [Heavy Armored] units> <when attacking>",
 		 "[-35]% Strength <vs [Armored] units> <when attacking>",
-		"[+1] Movement <in [Plains] tiles>"
+		"[+1] Movement <in [Plains] tiles>",
+		"No defensive terrain bonus"
 	],
 		"attackSound": "machinegun"
 	},
@@ -132,22 +134,23 @@
 		"unitType": "Light Armored",
 		"movement": 5,
 		"strength": 50,
-		"cost": 325,
+		"cost": 500,
 		"requiredTech": "Combustion",
 		"upgradesTo": "Tank",
 		"requiredResource": "Oil",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","[+35]% Strength <vs [Light Armored] units> <when attacking>","[+60]% Strength <vs [Gunpowder] units> <when attacking>","[+65]% Strength <vs [Ranged Gunpowder] units> <when attacking>","[-55]% Strength <vs [Heavy Armored] units> <when attacking>",
 		"[-35]% Strength <vs [Armored] units> <when attacking>",
-		"[+1] Movement <in [Plains] tiles>"
+		"[+1] Movement <in [Plains] tiles>","[-2] Movement <in [Hill] tiles>"
+
 	],
 		"attackSound": "tankshot"
 	},
 	{
 		"name": "Landship",
 		"unitType": "Armored",
-		"movement": 4,
+		"movement": 3,
 		"strength": 60,
-		"cost": 350,
+		"cost": 650,
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
 		"upgradesTo": "Tank",
@@ -160,7 +163,7 @@
 		"unitType": "Armored",
 		"movement": 4,
 		"strength": 70,
-		"cost": 375,
+		"cost": 700,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"upgradesTo": "Heavy Tank",
@@ -179,7 +182,13 @@
 		"upgradesTo": "Modern Armor",
 		"range": 1,
 		"uniques": ["[5]% Strength <vs [Anti-Tank Gun] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when attacking>","[+10]% Strength <vs [Ranged Gunpowder] units> <when attacking>",
-		"[+35]% Strength <vs [Armored] units> <when attacking>","[+25]% Strength <vs [Armored] units> <when defending>","[+55]% Strength <vs [Light Armored] units> <when defending>","[75]% Strength <vs [Light Armored] units> <when attacking>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Unbuildable","Unpurchasable"],
+		"[+35]% Strength <vs [Armored] units> <when attacking>",
+		"[+25]% Strength <vs [Armored] units> <when defending>",
+		"[+55]% Strength <vs [Light Armored] units> <when defending>",
+		"[75]% Strength <vs [Light Armored] units> <when attacking>",
+		"Can move after attacking","No defensive terrain bonus",
+		"Never appears as a Barbarian unit",
+		"Unbuildable","Unpurchasable"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -187,7 +196,7 @@
 		"unitType": "Modern Armored",
 		"movement": 5,
 		"strength": 100,
-		"cost": 425,
+		"cost": 875,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Giant Death Robot",
@@ -196,13 +205,17 @@
 	},
 	{
 		"name": "GDR X",
-		"unitType": "Light Armored",
+		"unitType": "Modern Armored",
 		"movement": 6,
 		"strength": 150,
 		"cost": 650,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Rapimuim",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit","Consumes [2] [Titanium]","[30]% Strength <vs [Light Armored] units> <when attacking>","[+25]% Strength <vs [Armored] units> <when attacking>","[+20]% Strength <vs [Heavy Armored] units> <when attacking>","[+15]% Strength <vs [Modern Armored] units> <when attacking>"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit","Consumes [2] [Titanium]",
+		"[30]% Strength <vs [Light Armored] units> <when attacking>",
+		"[+25]% Strength <vs [Armored] units> <when attacking>",
+		"[+20]% Strength <vs [Heavy Armored] units> <when attacking>",
+		"[+15]% Strength <vs [Modern Armored] units> <when attacking>"],
 		"attackSound": "gdrAttack"
 	},
 	{
@@ -258,7 +271,8 @@
 		"[60]% Strength <vs [Siege] units> <when attacking>",
 		"[-1] Sight","Never appears as a Barbarian unit",
 		"[-12]% Strength <vs [Water] units>",
-		"[25]% Strength <vs [Ranged Gunpowder] units> <when attacking>"],
+		"[25]% Strength <vs [Ranged Gunpowder] units> <when attacking>",
+		"No defensive terrain bonus"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -336,7 +350,8 @@
 		"Can build [Land mine] improvements on tiles","Can build [Barbed wire] improvements on tiles",
 		"Can build [Coastal Bunker] improvements on tiles","Can build [Exteded siger] improvements on tiles",
 		"Can build [Land Artillery] improvements on tiles",
-		"[-25]% tile improvement construction time","Can carry [2] [Grenades] units","Can carry [1] [Gunpowder equipment] units"],
+		"[-25]% tile improvement construction time","Can carry [2] [Grenades] units","Can carry [1] [Gunpowder equipment] units",
+		"No defensive terrain penalty"],
 		"requiredTech":"Railroads",
 		"attackSound": "shot"
 	},
@@ -384,7 +399,7 @@
 		"strength": 35,
 		"cost": 650,
 		"requiredTech": "Ballistics",
-		"uniques": ["Can carry [4] [Katyusha Missile] units"]
+		"uniques": ["Can carry [4] [Katyusha Missile] units","No defensive terrain bonus"]
 	},
 	{
 		"name": "Coastal Bunker Arillery",
@@ -426,7 +441,8 @@
 		"requiredTech": "Replaceable Parts",
 		"uniques": ["[+45]% Strength <vs [Gunpowder] units> <when fighting in [your] tiles>",
 		"[-65]% Strength <when fighting in [Foreign Land] tiles>",
-		"[-1] Movement <in [Foreign Land] tiles>"
+		"[-1] Movement <in [Foreign Land] tiles>",
+		"[-1] Sight <in [Foreign Land] tiles>"
 		,"Never appears as a Barbarian unit"],
 		"obsoleteTech": "Plastics",
 		"attackSound": "shot"

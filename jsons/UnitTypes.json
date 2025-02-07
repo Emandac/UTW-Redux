@@ -50,7 +50,16 @@
     {
         "name": "Light Armored",
         "movementType": "Land",
-        "uniques": ["[-25]% Strength <vs [Anti-Tank Gun] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when defending>","[+25]% Strength <vs [Gunpowder] units> <when attacking>"]
+        "uniques": ["[-50]% Strength <vs [Anti-Tank Gun] units> <when defending>",
+        "[-50]% Strength <vs [Anti-Tank Gun] units> <when attacking>",
+        "[+5]% Strength <vs [Gunpowder] units> <when defending>",
+        "[+10]% Strength <vs [Gunpowder] units> <when attacking>",
+    "[-44]% Strength <vs [Modern Armored] units> <when attacking>",
+    "[-44]% Strength <vs [Modern Armored] units> <when defending>",
+    "[-33]% Strength <vs [Heavy Armored] units> <when attacking>",
+    "[-33]% Strength <vs [Heavy Armored] units> <when defending>",
+    "[-25]% Strength <vs [Armored] units> <when attacking>",
+    "[-25]% Strength <vs [Armored] units> <when defending>"]
     },
     {
         "name": "Armored",
